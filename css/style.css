@@ -1,42 +1,42 @@
 @font-face {
-    font-family: "Bebas Neue";
-    src: local("Bebas Neue Regular"), local("Bebas-Neue-Regular"),
-        url("../fonts/BebasNeueRegular.woff2") format("woff2"),
-        url("../fonts/BebasNeueRegular.woff") format("woff"),
-        url("../fonts/BebasNeueRegular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue Regular"), local("Bebas-Neue-Regular"),
+    url("../fonts/BebasNeueRegular.woff2") format("woff2"),
+    url("../fonts/BebasNeueRegular.woff") format("woff"),
+    url("../fonts/BebasNeueRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 
 @font-face {
-    font-family: "Bebas Neue";
-    src: local("Bebas Neue Bold"), local("Bebas-Neue-Bold"),
-        url("../fonts/BebasNeueBold.woff2") format("woff2"),
-        url("../fonts/BebasNeueBold.woff") format("woff"),
-        url("../fonts/BebasNeueBold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-  }
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue Bold"), local("Bebas-Neue-Bold"),
+    url("../fonts/BebasNeueBold.woff2") format("woff2"),
+    url("../fonts/BebasNeueBold.woff") format("woff"),
+    url("../fonts/BebasNeueBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
 
 @font-face {
-    font-family: "Roboto Condensed";
-    src: local("Roboto Condensed Regular"), local("Roboto-Condensed-Regular"),
-        url("../fonts/roboto-condensed-regular.woff2") format("woff2"),
-        url("../fonts/roboto-condensed-regular.woff") format("woff"),
-        url("../fonts/roboto-condensed-regular.ttf") format("truetype");
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Roboto Condensed";
+  src: local("Roboto Condensed Regular"), local("Roboto-Condensed-Regular"),
+    url("../fonts/roboto-condensed-regular.woff2") format("woff2"),
+    url("../fonts/roboto-condensed-regular.woff") format("woff"),
+    url("../fonts/roboto-condensed-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
 
 @font-face {
-    font-family: "Roboto Condensed";
-    src: local("Roboto Condensed Bold"), local("Roboto-Condensed-Bold"),
-        url("../fonts/roboto-condensed-bold.woff2") format("woff2"),
-        url("../fonts/roboto-condensed-bold.woff") format("woff"),
-        url("../fonts/roboto-condensed-bold.ttf") format("truetype");
-    font-weight: 700;
-    font-style: normal;
-  }
+  font-family: "Roboto Condensed";
+  src: local("Roboto Condensed Bold"), local("Roboto-Condensed-Bold"),
+    url("../fonts/roboto-condensed-bold.woff2") format("woff2"),
+    url("../fonts/roboto-condensed-bold.woff") format("woff"),
+    url("../fonts/roboto-condensed-bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
 
 .visually-hidden {
   position: absolute;
@@ -61,8 +61,12 @@ a {
   text-decoration: none;
 }
 
-a:hover{
+a:hover {
   opacity: 0.6;
+}
+
+body {
+  color: #102654;
 }
 /*header*/
 
@@ -90,7 +94,7 @@ a:hover{
   align-items: center;
 }
 
-.logo-link:hover{
+.logo-link:hover {
   color: #ffffff;
 }
 
@@ -101,7 +105,7 @@ a:hover{
 
 .contacts_tel {
   font-family: "Bebas Neue", sans-serif;
-  font-weight: 400; 
+  font-weight: 400;
   font-size: 26px;
   color: #ffffff;
   letter-spacing: 1px;
@@ -140,8 +144,8 @@ a:hover{
 
 .header-title-part2 {
   display: flex;
-   margin-bottom: 50px;
-   /*align-items: center;*/
+  margin-bottom: 50px;
+  /*align-items: center;*/
 }
 
 .header-title-text {
@@ -185,7 +189,7 @@ a:hover{
   margin-bottom: 24px;
 }
 
-.socials-item:last-child{
+.socials-item:last-child {
   margin-bottom: 50px;
 }
 
@@ -212,73 +216,210 @@ a:hover{
 /*header end*/
 
 /*gym*/
-.section{
+.section {
   padding: 120px 0px;
 }
 
-.gym{
+.gym {
   padding-bottom: 235px;
 }
 
-.gym-content{
+.gym-content {
   display: flex;
   align-items: center;
-  color: #102654;
   padding-left: 60px;
 }
 
-.gym-description{
+.gym-description {
   margin-right: 85px;
   display: block;
   max-width: 355px;
   padding-top: 36px;
 }
 
-.section-title{
+.section-title {
   font-family: "Bebas Neue", sans-serif;
-font-size: 49px;
-letter-spacing: 0.03em;
-line-height: 49px;
+  font-size: 49px;
+  letter-spacing: 0.03em;
+  line-height: 49px;
 }
 
-.gym-title-description{
+.gym-title-description {
   margin-top: 5px;
   margin-bottom: 40px;
   font-family: "Roboto Condensed", sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 27px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
 }
 
-.gym-content-text{
+.gym-content-text {
   font-family: "Roboto Condensed", sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 16px;
-line-height: 24px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
 }
 
-.gym-picture{
+.gym-picture {
   position: relative;
   display: block;
 }
 
-.gym-picture::before{
+.gym-picture::before {
   content: url("../img/gym-desktop-video-1x.png");
   position: absolute;
   left: -63px;
   bottom: -115px;
 }
-
-
-
-
-
-
-
-
-
-
-
 /*gym end*/
+
+/*abonements*/
+
+.abonements {
+  background: #f8f9fc;
+  position: relative;
+}
+
+.abonements::after {
+  content: url("../img/donat-desktop.png");
+  position: absolute;
+  bottom: -150px;
+  right: 0;
+}
+
+.abonements .section-title {
+  text-align: center;
+  margin-bottom: 53px;
+}
+
+.labels-list {
+  display: flex;
+  justify-content: center;
+  width: 341px;
+  margin: 0 auto;
+  border-bottom: 2px solid rgba(120, 120, 120, 0.2);
+}
+
+.labels-list > label:not(:last-child) {
+  margin-right: 46px;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+input[name="tab-group"]:checked ~ .tab-content {
+  display: block;
+}
+
+.tab-title {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.tab-title:hover {
+  position: relative;
+  border-bottom: 2px solid #d10a42;
+  top: 1px;
+  z-index: 1;
+}
+
+.types-of-abonements {
+  display: flex;
+  justify-content: center;
+  margin-top: 59px;
+}
+
+.type-of-abonement {
+  background: #ffffff;
+  padding: 68px 77px;
+  text-align: center;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+
+.type-of-abonement:not(:last-child) {
+  margin-right: 40px;
+}
+
+.type-of-abonement:hover {
+  border-width: 5px;
+  border-style: solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(to bottom, #ed0233, #003eb7);
+}
+
+.title-of-abonement {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  margin-bottom: 22px;
+}
+
+.number-of-classes {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 96px;
+}
+
+.price-of-abonement {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 90px;
+  color: #103aae;
+  position: relative;
+  z-index: 3;
+  margin-bottom: 59px;
+}
+
+.price-of-abonement::after {
+  content: url("../img/rubl-desktop.png");
+}
+
+.price-background {
+  position: absolute;
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  color: #e8e8e8;
+  opacity: 0.48;
+  top: 200px;
+}
+
+.abonements_link {
+  font-family: "Roboto Condensed", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #102654;
+  padding: 27px 44px 28px 45px;
+  border: 2px solid #102654;
+  display: inline-block;
+  width: 100%;
+}
+
+.abonements_link:hover {
+  background: linear-gradient(111.72deg, #ed0233 17.6%, #003eb7 95.31%);
+  color: #ffffff;
+}
+
+.tab-content {
+  width: 100%;
+  display: none;
+}
+/*abonements end*/
