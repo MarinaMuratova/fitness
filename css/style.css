@@ -354,7 +354,7 @@ input[name="tab-group"]:checked ~ .tab-content {
 
 .type-of-abonement {
   background: #ffffff;
-  padding: 61px 77px;
+  padding: 61px 77px 85px 77px;
   text-align: center;
   box-sizing: border-box;
   position: relative;
