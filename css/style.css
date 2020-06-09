@@ -301,7 +301,7 @@ body {
 .abonements::after {
   content: url("../img/donat-desktop.png");
   position: absolute;
-  bottom: -150px;
+  bottom: -160px;
   right: 0;
 }
 
@@ -354,7 +354,7 @@ input[name="tab-group"]:checked ~ .tab-content {
 
 .type-of-abonement {
   background: #ffffff;
-  padding: 61px 77px 85px 77px;
+  padding: 61px 77px 87px 77px;
   text-align: center;
   box-sizing: border-box;
   position: relative;
@@ -362,7 +362,7 @@ input[name="tab-group"]:checked ~ .tab-content {
 }
 
 .type-of-abonement:not(:last-child) {
-  margin-right: 40px;
+  margin-right: 44px;
 }
 
 .type-of-abonement:hover {
