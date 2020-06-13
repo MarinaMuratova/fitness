@@ -877,3 +877,97 @@ input[name="tab-group"]:checked ~ .tab-content {
 
 /*
 reviews end*/
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+
+.footer{
+  background: #030A1A;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 44px 0;
+}
+
+.footer-menu{
+  padding-left: 27px;
+}
+
+.footer-menu-list{
+   display: flex;
+}
+
+.footer-menu-item:not(:last-child){
+  margin-right: 40px;
+}
+
+.footer-menu-link{
+  font-family: "Roboto Condensed", sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #FFFFFF;
+}
+
+.footer-socials-list{
+   display: flex;
+   align-items: center;
+}
+
+.footer-socials-item:not(:last-child){
+  margin-right: 25px;
+}
+
+.footer-socials-link{
+  background-size: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: block;
+  fill: white;
+}
+
+.footer-vk{
+  background-image: url("../svg/footer-desktop-vk.svg");
+  width: 24px;
+  height: 13px;
+}
+
+.footer-ig{
+  background-image: url("../svg/footer-desktop-ig.svg");
+  width: 24px;
+  height: 24px;
+}
+
+.footer-fb{
+  background-image: url("../svg/footer-desktop-fb.svg");
+  width: 12px;
+  height: 24px;
+  background-size: 10px;
+}
+
+/*footer end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
