@@ -370,19 +370,21 @@ input[name="tab-group"]:checked ~ .tab-content {
 }
 
 .type-of-abonement:not(:last-child) {
-  margin-right: 40px; /*44px*/
+  margin-right: 40px; 
 }
 
 .type-of-abonement:hover {
   border-width: 5px;
+  width: 360px;
+  padding: 56px 72px 56px 72px;
   border-style: solid;
   border-image-slice: 1;
   border-image-source: linear-gradient(to bottom, #ed0233, #003eb7);
 }
 
-/*.type-of-abonement:hover .type-of-abonement:not(:last-child) {
-  margin-right: 40px;
-}*/
+.type-of-abonement:hover .price-background {
+  top: 145px;
+}
 
 .title-of-abonement {
   font-family: "Roboto Condensed", sans-serif;
