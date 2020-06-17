@@ -72,8 +72,14 @@ a {
 
 a:hover,
 .arrow-left:hover,
-.arrow-right:hover {
+.arrow-right:hover, button:hover, input:hover{
   opacity: 0.6;
+  cursor: pointer;
+}
+
+input:focus{
+  opacity: 0.8;
+  color: #ff00ff;
 }
 
 body {
@@ -972,6 +978,7 @@ reviews end*/
 .contacts-info_description {
   font-weight: 400;
   font-size: 14px;
+  color: #102654;
 }
 
 .contacts-info_address,
