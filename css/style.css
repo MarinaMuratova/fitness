@@ -832,6 +832,7 @@ input[name="tab-group"]:checked ~ .tab-content {
   font-family: "Roboto Condensed", sans-serif;
   font-style: normal;
   color: #ffffff;
+  height: 462px;
 }
 
 .content-part1-box {
