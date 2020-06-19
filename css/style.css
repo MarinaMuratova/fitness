@@ -363,7 +363,6 @@ img {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 341px;
   margin: 0 auto;
   border-bottom: 2px solid rgba(120, 120, 120, 0.2);
 }
