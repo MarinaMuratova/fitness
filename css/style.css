@@ -329,11 +329,11 @@ img {
   display: block;
 }
 
-.gym-picture::before {
-  content: url("../img/gym-desktop-video-1x.png");
+.gym-video {
   position: absolute;
-  left: -63px;
-  bottom: -115px;
+  right: 462px;
+  top: 1065px;
+  z-index: 3;
 }
 /*gym end*/
 
