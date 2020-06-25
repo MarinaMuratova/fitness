@@ -121,20 +121,6 @@ img {
     #b80027 313.31deg,
     #003d85 392.24deg
   );
-  -moz-background: conic-gradient(
-    from 130.31deg at 16.03% 39.06%,
-    #b80027 -46.69deg,
-    #003d85 32.24deg,
-    #b80027 313.31deg,
-    #003d85 392.24deg
-  );
-  -webkit-background: conic-gradient(
-    from 130.31deg at 16.03% 39.06%,
-    #b80027 -46.69deg,
-    #003d85 32.24deg,
-    #b80027 313.31deg,
-    #003d85 392.24deg
-  );
 }
 
 .container {
@@ -185,7 +171,7 @@ img {
   color: #ffffff;
   margin-right: 64px;
   padding-left: 10px;
-  padding-top: 118px;
+  padding-top: 115px;
 }
 
 .header-subtitle {
@@ -194,8 +180,8 @@ img {
   font-size: 49px;
   text-transform: uppercase;
   font-stretch: ultra-condensed;
-  margin-bottom: 10px;
   letter-spacing: 0.03em;
+  margin-bottom: 11px;
 }
 
 .header-title {
@@ -210,7 +196,7 @@ img {
   display: flex;
   display: -webkit-box;
   display: -ms-flexbox;
-  margin-bottom: 73px;
+  margin-bottom: 74px;
   /*align-items: center;*/
 }
 
@@ -221,7 +207,7 @@ img {
   font-size: 14px;
   margin-right: 32px;
   line-height: 21px;
-  padding-top: 13px;
+  padding-top: 17px;
 }
 
 .header-picture {
@@ -637,7 +623,7 @@ input[name="tab-group"]:checked ~ .tab-content {
 .arrow-right {
   background: url("../img/trainers-arrow-right.png") no-repeat;
   bottom: 130px;
-  right: -80px;
+  right: -73px;
 }
 
 .trainer-item {
@@ -725,8 +711,9 @@ input[name="tab-group"]:checked ~ .tab-content {
 
 /*advantages*/
 
-.advantages {
+section .advantages {
   background: #f8f9fc;
+  padding-bottom: 130px;
 }
 
 
@@ -834,9 +821,13 @@ input[name="tab-group"]:checked ~ .tab-content {
 
 /*promotion*/
 
+.promotion{
+  padding-top: 110px;
+}
+
 .promotion .section-title{
   text-align: center;
-  margin-bottom: 47px;
+  margin-bottom: 51px;
 }
 
 .content-part1 {
@@ -942,7 +933,7 @@ input[name="tab-group"]:checked ~ .tab-content {
   width: 560px;
   padding-top: 57px;
   padding-left: 62px;
-  padding-bottom: 62px;
+  padding-bottom: 59px;
   padding-right: 62px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -967,13 +958,13 @@ input[name="tab-group"]:checked ~ .tab-content {
 
 .reviews .arrow-left {
   background: url("../img/trainers-arrow-left.png") no-repeat;
-  bottom: 111px;
+  bottom: 103px;
   left: 244px;
 }
 
 .reviews .arrow-right {
   background: url("../img/trainers-arrow-right.png") no-repeat;
-  bottom: 111px;
+  bottom: 103px;
   right: 224px;
 }
 
