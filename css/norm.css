@@ -1,0 +1,39 @@
+
+html {
+  line-height: 1.15; 
+  -webkit-text-size-adjust: 100%; 
+}
+
+main {
+  display: block;
+}
+
+legend {
+  box-sizing: border-box; 
+  color: inherit; 
+  display: table; 
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+[type="radio"] {
+  box-sizing: border-box; 
+  padding: 0; 
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
