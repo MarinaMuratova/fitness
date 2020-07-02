@@ -964,6 +964,13 @@ section .advantages {
   line-height: 22px;
 }
 
+.slider {
+  position: relative;
+  height: 300px;
+}
+
+
+
 .reviews .arrow-left {
   background: url("../img/trainers-arrow-left.png") no-repeat;
   bottom: 103px;
