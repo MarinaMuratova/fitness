@@ -273,7 +273,7 @@ img {
 }
 
 .gym {
-  padding-bottom: 235px;
+  padding-bottom: 234px;
 }
 
 .gym-content {
@@ -340,6 +340,8 @@ img {
 .abonements {
   background: #f8f9fc;
   position: relative;
+  padding-top: 117px;
+  padding-bottom: 122px;
 }
 
 .abonements::after {
@@ -370,7 +372,7 @@ img {
   position: absolute;
   border-bottom: 2px solid rgba(120, 120, 120, 0.2);
   width: 341px;
-  top: 37px;
+  top: 39px;
   
 }
 
@@ -391,7 +393,7 @@ input[name="tab-group"]:checked ~ .tab-content {
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  padding-bottom: 13px;
+  padding-bottom: 16px;
   cursor: pointer;
   border-bottom: 1px solid #ccc transparent;
 }
@@ -592,7 +594,9 @@ input[name="tab-group"]:checked ~ .tab-content {
 /*promo end*/
 
 /*trainers*/
-
+.trainers{
+  padding-bottom: 113px;
+}
 
 .trainers,
 .reviews {
@@ -715,18 +719,19 @@ input[name="tab-group"]:checked ~ .tab-content {
 
 /*trainers end*/
 
+
 /*advantages*/
 
-section .advantages {
+.advantages {
   background: #f8f9fc;
-  padding-bottom: 130px;
+  padding-bottom: 112px;
+  padding-top: 118px;
 }
-
 
 .advantages .section-title, .promotion .section-title,
 .reviews .section-title {
   text-align: center;
-  margin-bottom: 52px;
+  margin-bottom: 50px;
 }
 
 .advantages .section-title{
@@ -828,7 +833,7 @@ section .advantages {
 /*promotion*/
 
 .promotion{
-  padding-top: 110px;
+  padding-top: 122px;
 }
 
 .promotion .section-title{
