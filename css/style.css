@@ -58,8 +58,6 @@ body {
   color: #102654;
 }
 
-
-
 ul {
   padding-left: 0;
   margin: 0;
@@ -372,7 +370,8 @@ img {
   position: absolute;
   border-bottom: 2px solid rgba(120, 120, 120, 0.2);
   width: 341px;
-  top: 39px;
+  top: 37px;
+  
 }
 
 .labels-list > label:not(:last-child) {
@@ -394,12 +393,11 @@ input[name="tab-group"]:checked ~ .tab-content {
   font-size: 20px;
   padding-bottom: 13px;
   cursor: pointer;
+  border-bottom: 1px solid #ccc transparent;
 }
 
-.tab-title:hover {
-  position: relative;
+.tab-title-focus{
   border-bottom: 2px solid #d10a42;
-  top: 1px;
   z-index: 1;
 }
 
