@@ -7,6 +7,8 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/norm.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" type="text/javascript"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.maskedinput@1.4.1/src/jquery.maskedinput.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -485,9 +487,13 @@
               <div class="class-for-free_info">
                 <input class="contact" id="name" type="text" name="contact-name" placeholder="Имя" required>
                 <label for="tel"></label>
-                <input class="contact" id="tel" type="tel" pattern="8-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" name="contact-name" placeholder="Телефон" required title="Введите телефон в формате 8-ХХХ-ХХХ-ХХ-ХХ">
-              </div>
 
+                <script src="js/jquery.maskedinput.min.js"></script>
+                <input type="text" placeholder="Телефон" class="contact">
+                <script>
+                 $(".contact").mask("+7(999)999-99-99");
+                 </script>
+              </div>
               <button class="class-for-free_btn" type="submit"> Отправить </button>
             </form>
           </div>
